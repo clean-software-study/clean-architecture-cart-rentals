@@ -1,0 +1,11 @@
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/bin/Debug/net10.0/CleanArchitecture.Domain.deps.json
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/bin/Debug/net10.0/CleanArchitecture.Domain.dll
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/bin/Debug/net10.0/CleanArchitecture.Domain.pdb
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/CleanArchitecture.Domain.AssemblyInfoInputs.cache
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/CleanArchitecture.Domain.AssemblyInfo.cs
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/CleanArchitecture.Domain.dll
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/refint/CleanArchitecture.Domain.dll
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/CleanArchitecture.Domain.pdb
+/home/arch-jhon/work/me/clean-architecture-cart-rentals/src/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net10.0/ref/CleanArchitecture.Domain.dll
