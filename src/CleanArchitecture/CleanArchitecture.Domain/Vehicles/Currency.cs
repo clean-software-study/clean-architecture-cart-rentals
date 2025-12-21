@@ -5,7 +5,7 @@ public record Currency(decimal Value, CurrencyType CurrencyType)
     public static Currency operator +(Currency first, Currency second)
     {
         return first.CurrencyType != second.CurrencyType
-            ? throw new ArgumentException("Currencies must be the same type")
+            ? throw new ApplicationException("Currencies must be the same type")
             : new Currency(first.Value + second.Value, first.CurrencyType);
     }
 

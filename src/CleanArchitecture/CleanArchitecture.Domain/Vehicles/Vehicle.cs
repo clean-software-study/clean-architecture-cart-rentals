@@ -5,11 +5,11 @@ namespace CleanArchitecture.Domain.Vehicles;
 public sealed class Vehicle(
     Guid id,
     Model? model,
-    Vin? vin = null,
-    Address? address = null,
-    Currency? price = null,
-    Currency? maintenance = null,
-    List<Accessory>? accessories = null
+    Vin? vin,
+    Address? address,
+    Currency? price,
+    Currency? maintenance,
+    List<Accessory>? accessories
 ) : Entity(id)
 {
     public Model? Model { get; private set; } = model;
@@ -18,5 +18,4 @@ public sealed class Vehicle(
     public Currency? Price { get; private set; } = price;
     public Currency? Maintenance { get; private set; } = maintenance;
     public List<Accessory>? Accessories { get; private set; } = accessories;
-
 }
