@@ -1,7 +1,6 @@
 namespace CleanArchitecture.Domain.Vehicles;
 
-public record Address
-(
+public record Address(
     string Street,
     string Department,
     string Province,
