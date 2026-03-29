@@ -3,15 +3,10 @@ using CleanArchitecture.Domain.Users.Events;
 
 namespace CleanArchitecture.Domain.Users;
 
-public class User : Entity
+public sealed class User : Entity
 {
-
-    private User(
-        Guid id,
-        Name? name,
-        LastName? lastName,
-        Email? email
-    ) : base(id)
+    private User(Guid id, Name? name, LastName? lastName, Email? email)
+        : base(id)
     {
         Name = name;
         LastName = lastName;
@@ -22,11 +17,7 @@ public class User : Entity
     public LastName? LastName { get; private set; }
     public Email? Email { get; private set; }
 
-    public static User Create(
-        Name? name,
-        LastName? lastName,
-        Email? email
-    )
+    public static User Create(Name? name, LastName? lastName, Email? email)
     {
         var user = new User(Guid.NewGuid(), name, lastName, email);
         user.RaisedDomainEvent(new UserCreatedDomainEvent(user.Id));

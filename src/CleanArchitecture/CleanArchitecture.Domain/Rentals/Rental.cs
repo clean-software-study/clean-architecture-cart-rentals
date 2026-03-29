@@ -5,7 +5,7 @@ using CleanArchitecture.Domain.Vehicles;
 
 namespace CleanArchitecture.Domain.Rentals;
 
-public class Rental : Entity
+public sealed class Rental : Entity
 {
     public Guid VegihicleId { get; private set; }
     public Guid UserId { get; private set; }
